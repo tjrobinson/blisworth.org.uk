@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /Alexander/
+Disallow: /Cole/
+Disallow: /Contact/
+Disallow: /Occasions/WWooly/
+Disallow: /Payler%20Albums/
+Disallow: /TH-Coll/
+Disallow: /Tunnel%201982/Slides/

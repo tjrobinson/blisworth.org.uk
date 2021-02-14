@@ -1,0 +1,1225 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 4.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>Births at Blisworth, Sex Ratio at Birth, Anomalous Records, Moral Compass, Laudanum</title>
+</head>
+
+<body bgcolor="#000080">
+
+<p align="center" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+<div align="center">
+  <center>
+  <table border="1" cellpadding="22" width="950" height="1" bgcolor="#FFFFFF" bordercolorlight="#FF0000" bordercolordark="#FF0000">
+    <tr>
+      <td width="950" height="1">
+        <p class="MsoTitle" align="center" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+        <p class="MsoTitle" align="center" style="margin-top: 6; margin-bottom: 0"><font size="5" color="#000080"><b>Study of Birth Records in Blisworth, 1550 - 1922</b></font></p>
+        <p class="MsoTitle" align="center" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0"><font color="#000080"><font size="4">Tony
+        Marsh<o:p>&nbsp; May 2014</font><span style="font-size:11.0pt"></o:p>
+        </span>
+        </font>
+        </p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080">&nbsp;<o:p>
+        </o:p>
+        </font>
+        </p>
+        <p><img src="Table1.jpg" align="left" height="292" width="350">
+        <font color="#000080"><b><span style="font-size:11.0pt">Background:</span></b><span style="font-size:11.0pt"><span style="mso-spacerun: yes">&nbsp;
+        </span>At the March 2014 Heritage Society meeting, a presentation by
+        Hilary Spurrier, Beryl Andrews and Robin Freeston on the analysis of
+        births in Blisworth gave a table showing the male and female births over
+        the period 1750 to 1920. Between 1820 and 1900 the ratio of boy to girl
+        births was reported as anomalously high, with an average of 1.295. This
+        is a startlingly high value of the ratio. Considered typical of present day healthy society, a figure for the
+        “Sex Ratio at Birth” (<b>SRB</b>) of 1.00 to 1.06 is expected.
+        Higher values found in backward countries and in Asia are usually
+        associated with the infanticide of female babies for reasons of birth
+        control. The original data used for this work was R Freeston's overall
+        Excel file of births, marriages and deaths. The study was repeated over
+        a limited date range and a ratio of 1.202 was obtained. The averages in
+        ratio obtained for the first and second studies seemed to be not in
+        satisfactory accord. It was resolved to repeat the counting using a
+        digital software programme written in Perl rather than counting records
+        by eye from a computer screen.<o:p></span></font></p>
+        <p class="MsoNormal" style="margin-top: 4; margin-bottom: 0"><font color="#000080">
+        <b><span style="font-size:11.0pt">Text Processing:</span></b><span style="font-size:11.0pt"><span style="mso-spacerun:
+yes">&nbsp; </span>Perl is ideally suited to the manipulation of text. It is
+        capable of detecting 's' (ie. son) or 'd' (ie. daughter) in a variety of
+        syntaxes and also detecting any double occurrence of the word 'of ' in a
+        syntax such as<span style="mso-spacerun: yes">&nbsp; </span>&quot;s of
+        Charles &amp; Harriet of Wolverton&quot; and so give an opportunity to
+        exclude visiting parents.<span style="mso-spacerun: yes">&nbsp; </span>Other
+        phrases such as &quot;base born&quot; and &quot;bastard&quot; allow a
+        logging of most baptisms of illegitimate children. In the original Excel
+        file, once filtered for baptisms, there were 4934 valid entries and a
+        justification for excluding 507 of them for a variety of reasons. A
+        total of 247 entries were for visiting parents, incl. 3 adults, and so
+        were ignored. They displayed an <b>SRB</b> ratio of 1.05, as a sub-group,
+        and the importance of this is discussed later. There were 260 blank or
+        seriously uninformative entries. The great majority of these (93%) were
+        created in the interval 1550 to 1650. A closer examination was made of
+        these, looking for mention of a given name so that entries could be
+        classified for gender and this was possible for 87 entries. However,
+        some may have corresponded to adults, possibly already baptised without
+        their knowledge. For this reason this small group was finally omitted. A
+        total of 64 illegitimate children were logged from 1550 – 1922 and the
+        total was later adjusted for a reason that will become clear.<o:p>
+        </o:p>
+        </span></font></p>
+        <p><img src="Table2.jpg" align="left" height="450" width="396">
+        <font color="#000080"><!--[if gte vml 1]><v:shapetype id="_x0000_t75" coordsize="21600,21600"
+ o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe" filled="f"
+ stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="_x0000_s1028" type="#_x0000_t75" style='position:absolute;
+ margin-left:0;margin-top:59.4pt;width:333pt;height:293.05pt;z-index:3'>
+ <v:imagedata src="file:///C:/DOCUME~1/Tony/LOCALS~1/Temp/msoclip1/01/clip_image002.png"
+  o:title=""/>
+ <w:wrap type="square"/>
+</v:shape><![if gte mso 9]><o:OLEObject Type="Embed" ProgID="PSP6.Image"
+ ShapeID="_x0000_s1028" DrawAspect="Content" ObjectID="_1461113255">
+</o:OLEObject>
+<![endif]><![endif]--><span style="font-size:
+11.0pt">As shown in <b> Table I</b>, the results differ quite markedly from previous surveys in some
+        respects. A very high male bias is seen for the earliest century that
+        was covered. This was not noticed before. The high male bias, initially
+        noted for the Victorian period, this time is still perceptible but as a
+        subtler rise (figures shown in red). The mild female bias in other
+        centuries was not noticed before. One theory that might explain male
+        bias assumes that a genetic factor is carried forward in a family so
+        promoting a high incidence of male births. Accordingly, with the births
+        records already divided into 50-year periods, a count was made of boys
+        and girls against each surname in the records. There were a total of 800
+        surnames but within any 50 year period there was typically only ~350
+        present. The entire record was scanned for heavy male bias and the
+        conclusion of this survey is presented in the table inset here, <b>Table
+        II</b>.<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt">Remarkably,
+        only 31 family names sported a strong male bias at some stage (and
+        rarely twice, interestingly). Such situations are highlighted in yellow
+        while the relatively un-biassed periods for the families are shown with
+        a white background. At each point the format of the entry is “boys
+        comma girls”. A grey background is used where there are no births for
+        a family within a particular 50-year period. This distinction, with grey,
+        probably shows when a family has departed or just arrived in the
+        village. </span><span style="font-size:11.0pt">A few families, eg. the
+        Paceys, Gibbs and the Griffins, have occupied the village continuously
+        from 1550 -1922 (but mysteriously have all now departed).<span style="mso-spacerun: yes">&nbsp;
+        </span>The Carters began in the early 1700s and are still going strong
+        today. Families that appear over two separate periods are presumed to be
+        not closely related branches and have the same surname more-or-less by
+        coincidence - eg. the Greens and the Watts.<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080">Before attempting to give any account of the
+        results it is sometimes helpful in the massaging of complex data to
+        extract what, to the scientist and engineer, is known as any dimensionless group<span style="font-size:11.0pt;
+mso-bidi-font-size:12.0pt">. This promotes the suggestion of mathematical
+        relationships between elements of the data. The <b>SRB</b> is already
+        dimensionless, being a ratio without units. The data in <b>Tables I</b>
+        and <b>II</b> could be combined as follows. One could note the count of
+        male bias incidence with each 50-year period and compare that to the
+        total number of baptisms for the same period. </span><span style="font-size: 11.0pt">Thus,
+        as an example, the number of incidents in the 1750-1800 date range is 4.
+        We set that as (4 +/- 1) and divide it by the level of birth activity in
+        that period, which was 514 according to <b>Table I</b>. A &quot;families
+        <u>per 100 births</u>&quot; index so formed is thus:<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt">Fam/100</span></b><span style="font-size: 11.0pt">
+        index for (1750-1800)<span style="mso-spacerun: yes">&nbsp; </span>=<span style="mso-spacerun: yes">&nbsp;
+        </span>(4 +/- 1) divided by 5.14<span style="mso-spacerun: yes">&nbsp; </span>=<span style="mso-spacerun: yes">&nbsp;
+        </span>0.6 to 1.0<o:p>
+        </span><span style="font-size:11.0pt;color:#222222">
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">The
+        justification for the +/- 1 is that the measure of “actual male
+        bias” is subjective and liable to error. The index is dimensionless
+        because it is the quotient of two plain numbers. In the diagram below, <b>Figure
+        1</b>, there is plotted against the date ranges both the <b>SRB</b>
+        ratio and the <b>Fam/100</b> index.</font></span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0" align="center"><img border="0" src="Figure&#32;1.jpg" width="900" height="334"></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">By
+        inspection, there appears to be a correlation between these two factors
+        in that between 1550 and 1800 the two trends follow each other. To
+        confirm this impression just imagine the data for <b>SRB</b> being drawn
+        lower down on the graph compared to where it is (ie. move by minus 0.1
+        on the <b>SRB</b> scale). The <b>SRB</b> =<span style="mso-spacerun: yes">&nbsp;
+        </span>0 point, which is meaningless, is suppressed anyway. We see that,
+        after 1800, the <b>SRB</b> takes off upwards and &quot;peaks&quot;,
+        compared to an expectation based on the <b>Fam/100</b> index, at around
+        the middle of the 1850-1900 date range.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">Before
+        considering the conditions regarding births in the two date ranges,
+        before 1800 and after 1800, it will be useful to be clear on
+        definitions. These data are about <b>baptisms</b> and not strictly about
+        births. There are at least three distinguishable cases where the
+        difference is very important.</font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt">(i).</span></b><span style="font-size: 11.0pt"> A
+        mother may (a) conceal her pregnancy, (b) have her baby in private and
+        alone and (c) not tell anyone about its subsequent death. This would
+        have been common temptation for un-married young girls with all to loose
+        because of the stigma. Up to about 1700 the law was clear on this issue
+        and if the woman were found guilty on all three counts the sentence was
+        a capital one, for what was termed “infanticide”. Some sympathy was
+        being introduced in the 1600s and by 1800 the situation had become one
+        of <i>laissez faire</i> from a legal standpoint.<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt">(ii).</span></b><span style="font-size: 11.0pt"> A
+        situation where a birth is not necessarily reported and the baby dies
+        very young (at less than 6 years) has always been regarded with sympathy
+        even though the cause of death might have been unnatural or partly
+        brought on by the mal-nutrition of a very sickly child. There is no term
+        for this type of loss in the literature so here it is given the label
+        “family wasting”.<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt">(iii).</span></b><span style="font-size: 11.0pt">
+        Cases as in (ii) where the death is <b>not</b> reported –
+        “unrecorded family wasting”. It is recommended that one should read <b>Appendix
+        4</b> that deals with this topic.<o:p>
+        </o:p>&nbsp;<o:p>
+        </o:p>
+        </span></font></p>
+        <p align="center" style="margin-top: 6; margin-bottom: 0"><font size="4" color="#000080">Discussion</font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt">Pre-1800
+        era:</span></b><span style="font-size:11.0pt;color:#222222"><span style="mso-spacerun: yes">&nbsp;
+        </span></span><span style="font-size: 11.0pt">Blisworth was essentially a small agricultural community. Social
+        standards were established and maintained by the Lord of the Manor
+        (being an agent of the King until ~1700), by the Rector and by some of
+        the parish officials such as the Constable and the Overseer of the Poor.
+        It seems inconceivable that much distortion of the records occurred due
+        to infanticide, ie<b>. (i)</b> above. One only needs to inspect the low
+        level of illegitimacy to feel convinced of this. Possibly there may have
+        been a fair amount of unrecorded family wasting. The abstract for a
+        treatise was found in the searches (see the <b>Appendix I</b>) that dealt
+        with practices common in a German parish where arguments for reducing
+        the count of girls was justified as the natural loss of young boys was
+        always a major concern. (The loss of more boys than girls was recorded
+        also in Blisworth). The high value of the <b>SRB</b> may be partly for
+        reasons of unrecorded family wasting but probably only partly. A more likely
+        contributory factor is the light level of inter-breeding within the
+        community that would persist even though some males were encouraged to
+        find their wives in the neighbouring villages. It was frequently the
+        case that two families got on so well together that brothers married
+        corresponding sisters. Subsequently the offspring would be genetically
+        very close cousins, all the more confusing if three or four families
+        were involved. Occasionally these cousins would carelessly marry and
+        affect the genes. Alternatively, </span><span style="font-size:11.0pt">would
+        the stress from the pre-Civil War years have fired up an extra male
+        bias? We know little of the society of that time. We know of only one fellow who departed the village for a few
+        years and joined the Roundheads. He was <a href="../../Blands/Bland's&#32;Date&#32;Stone.htm"> Richard
+        Bland</a>, the second eldest
+        one of four sons (no daughters!) that were born from 1623 to 1632. He
+        survived all the battles and returned with, eventually, a good pay that
+        would have exceeded earnings possible in agriculture. Having three
+        competing brothers perhaps had encouraged him to seek his fortune
+        elsewhere. Could these conditions have
+        encouraged a common male bias? The opinion of a geneticist is required.<o:p>
+        </o:p>
+        </span></font></p>
+        <p><img src="Table3.jpg" align="left" height="1080" width="310">
+        <font color="#000080"><b><span style="font-size: 11.0pt">Post-1800
+        era:</span></b><span style="font-size: 11.0pt"><span style="mso-spacerun: yes">&nbsp;
+        </span>From 1790 onwards the social climate of Blisworth changed
+        dramatically. After around 1650, farming was being gradually improved
+        and <a href="../../Farming/Fields/fields_inclosure.htm"> transferred to only a few</a> favoured farmers. This created some
+        poverty in the labouring class that is believed to have endured into the
+        Victorian times.&nbsp; In the 1780s a clever
+        farmer, <a href="../../Articles/Stone-works.html"> John Roper</a>, arrived from Suffolk with new ideas on grassland and
+        arable fields and was awarded a plum job as agent to the Duke of
+        Grafton. He was persuaded toward profiteering with the Duke’s capital,
+        swindled everyone he could and was finally sacked in 1833. Alongside him
+        was a new <a href="../../Articles/Ambrosse-2.htm"> Rector, Rev. Ambrosse</a>, who held the benefice from 1799 to
+        1840. He was often absent from the Parish, gambled and found himself, on
+        more than one occasion, in the debtors prison. Farmers and villagers
+        alike experienced enormous disruption by a workforce building the canal
+        and its tunnel through the parish. The wharf at Blisworth became,
+        especially for 10 years or so, a busy transhipping port. The main road
+        through the village was upgraded to a turnpike, costing more for anyone
+        to move stock from field to field. By 1837 there was established an
+        enormous embankment that seemed to cut the village off from the villages
+        to the north. It was to carry the new London to Birmingham railway with
+        a substantial station just outside the village limits. The stone quarry
+        was enlarged by 1820 and new quarries for ironstone were being dug by
+        1860.<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><span style="font-size: 11.0pt">In the
+        time interval of 70 years there was no longer a scarcity of new
+        employment, or so it seemed, but the influx of newcomers to the village
+        virtually doubled the population and doubled the birth rate. One can
+        imagine a majority of society that was poor or in poverty looking on at
+        the good fortune of a few lucky entrepreneurial people. The loss of
+        a moral compass, hitherto set by a Rector and a few influential people,
+        one supposes gave the community a sort of “go ahead”. The scale of illegitimacy
+        took off and there was perhaps an enormous increase in male-male
+        competition. The illegitimacy rate of 2 in 25 years that had been
+        maintained for at least 200 years climbed to a level of nearly one per
+        year.<span style="mso-spacerun: yes">&nbsp; </span>The claimed large
+        flush of them at</span><span style="font-size:11.0pt"> the time of the
+        canal building (1795 - 1810) was not noted in fact. The bar chart below,
+        <b>
+        Figure 2</b>, condenses the table opposite. Oddly, from 1854,
+        there were no more illegitimacies recorded in the usual way. This was
+        because of the move by Rev Barry to follow the CoE
+        &quot;high-church&quot; fashion causing him to simply ban any use of the
+        phrase &quot;base born&quot; from 1854. The chart is therefore continued
+        with a different colour showing babies baptised with just a mother
+        present. Maybe his ministry improved societal standards after ~1850
+        because the chart does show a decline. Another factor was the new 1872
+        law that made the father equally liable for the support of the
+        illegitimate child and, incidentally called for the compulsory recording
+        of all births.<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size:11.0pt"><font color="#000080">Rather amusing is
+        the performance of Miss Mercy Plowman who simply could hardly stop
+        having children out of wedlock (8 in all, see red highlights, her last
+        at the age of 51). Some of her babies appear to have been fostered by
+        the Carter family where she was lodging in 1871. Five other families
+        besides Plowman achieved multiple illegitimacies.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size:11.0pt"><font color="#000080">All this expansion
+        created over-crowding. The railway company in circa 1850 built the
+        twelve houses near the railway arch for their workers who were enjoying
+        a fair to good income. There were 11 houses built ~1870 to
+        a “Grafton design” that were intended for prosperous families. The baker R. Westley,
+        however, built two blocks of tenements containing 28 poorly
+        specified units for the poorer families in 1855 and also a few cottages
+        for higher grade workers at
+        Pynus in ~1890. The poor had the new tenement and and were crowded into
+        them and the lower grade cottages, some of which were subdivided into 3
+        or 4 units. Grafton, the owner of Blisworth till 1919, was
+        criticised in <a href="../../Articles/village_house_famine.htm"> parliament in
+        1911</a> for his derisory record in house
+        building and it was not until the Towcester Rural District Council began
+        razing old houses, in the name of public health, in the 1930s, building
+        over 36 new Council houses, that the village could be said to be
+        catching up on the population expansion. Crowding was pretty bad. The 1871 census
+        demonstrates this and shows 952 people resident in 222 dwellings. The
+        distribution of housing density has been determined from a knowledge of
+        the size of the dwellings and the houses were divided into “classes”
+        as HIGH, Good, Medium or Dire (or evidently Empty or &quot;residents not
+        at home&quot;), see <b>Table IV</b> below.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><span style="font-size:11.0pt">Among the
+        &quot;Medium class&quot; and those described as &quot;Dire&quot; there
+        were 25 dwellings with 6 or more occupants, up to a total of 10. The
+        high apparent occupancy for the houses classed as &quot;HIGH&quot; is
+        due to the fact that they included servants and a total number of
+        bedrooms of around 6. Most of the units considered &quot;Medium or
+        Dire&quot; comprised one bedroom, one shared living room, a shared
+        kitchen area and maybe a shared &quot;copper&quot; for hot water (no
+        bathroom, water from a well nearby). With that there would often be an
+        outside closet toilet, emptied manually twice weekly, shared between 4
+        to 6 households. Fresh tap-water and flush toilets arrived in the
+        village in 1953 - 17 years after Northampton.<o:p></span><span style="font-size:8.0pt;mso-bidi-font-size:11.0pt">&nbsp;<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size:11.0pt"><font color="#000080">Within a population
+        sub-group of about 400, this would certainly be an environment capable
+        of harbouring infant ill health with a prospect of infanticide or
+        unrecorded family wasting.<span style="mso-spacerun: yes">&nbsp; </span>Indeed,
+        after nearly 100 years of grossly unhygienic use, it was perfectly
+        reasonable for the Council to raze such “in-grained” houses and
+        start again (though villagers with ideas of property development found
+        the action of “replacing stone with utility brick” lamentable).<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size:11.0pt"><font color="#000080">The <b>SRB</b> ratio
+        just before 1800 was hovering in a slight female-bias state, ie. <b>SRB</b>
+        ~ 0.95, and this could have been because there was an under-current of
+        male babies dying before they could be baptised. Quite why this ratio
+        was overturned into a male-bias in the Victorian years is something of a
+        mystery. Could there be a similar but diluted effect from male-male
+        competition (compared to the 1600s) arising in the genetics of the
+        community? At least comforting is the fact that from 1800 any suspicion
+        of inter-breeding would be dispelled.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p><img src="Figure2.jpg" align="left" height="276" width="583">&nbsp;
+        <font color="#000080">We should however look closely at the
+        possibility of either infanticide or unrecorded family wasting being
+        embedded in the figures. The 1871 census was used to analyse this issue
+        along with the processed data for the 50-year period, 1850 – 1900. In
+        that period there were 71 recorded deaths at an age less than 12 months
+        and a further 74 for children under the age of 6 years. These two
+        figures amount to a loss of 27% of all births (baptisms) and there were
+        in fact 38% more recorded boy deaths than girls.</font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size:11.0pt"><font color="#000080">It
+        is a fact that the SRB ratio for the Victorian period is anomalously
+        high and demands to be explained. We have discussed crowding and poverty
+        which were both undeniable factors influencing society in the Victorian era
+        and alluded to a loss of moral compass (as against the standards at that
+        time, it must be emphasised). Perhaps a level of unrecorded
+        family wasting was the reason for a high <b> SRB</b> which basically is pointing
+        to a moderate shortage of recorded female births. Incidently there is a
+        study of the effects of poverty in a large Venzuelan population
+        (catholic, probably mostly healthy 'moral compass') and there the <b> SRB</b>
+        remained in the range 0.98 to 1.08 while correlations implying
+        poverty-driven family size control were found. So this is the
+        justification here of &quot;adjusting&quot; the statistics for Victorian
+        Blisworth. If an arbitrary
+        total of 106 infants <u>as unrecorded family wasting</u> (in 50 years)
+        were to be added to the 71 infants statistic and notionally counted as
+        births then, with a reasonable excess of girls over boys assumed in the
+        wasting, the entered points in <b> Figure 1</b> above, for the 1850 –
+        1900 period, would occupy the grey outlined positions shown there, with
+        an <b>SRB</b> of 1.10. The change provides some improved conformity
+        between the two plots but that is rather modest compared with an
+        adjustment one would expect, naively, from a simple set of ideas. At
+        least it is evident that an incidence of wasting may make an adjustment in
+        the right direction but the level of wasting at 106 seems too high to be
+        reasonable.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><!--[if gte vml 1]><v:shape id="_x0000_s1031" type="#_x0000_t75"
+ style='position:absolute;margin-left:0;margin-top:54pt;width:180.75pt;
+ height:219pt;z-index:6'>
+ <v:imagedata src="file:///C:/DOCUME~1/Tony/LOCALS~1/Temp/msoclip1/01/clip_image011.jpg"
+  o:title="visitors 1780s to 1930s"/>
+ <w:wrap type="square"/>
+</v:shape><![endif]-->
+        <b><span style="font-size:11.0pt">Visitor Baptisms:</span></b><span style="font-size:
+11.0pt"><span style="mso-spacerun: yes">&nbsp; </span>This is a rather strange
+        topic and, at first sight, merely an unimportant side issue. <b> Figure 3</b> shows the number of such baptisms by decade. There were
+        only three cases before 1780 and so it is only necessary to cover the
+        period from 1780 to 1930 (the records cease in 1922). The high level in
+        the 1790s and the 1800s could be explained by a large number of
+        temporary visitors, as families, to the village for the canal and tunnel
+        construction. The tiny component for the 1920s was due to WWI and only
+        three years being represented.
+        </span></font></p>
+        <p><img src="Figure3.jpg" align="left" height="764" width="360">
+        <font color="#000080"><span style="font-size:
+11.0pt">A background trend is perceived, starting
+        at a very low level at 1800 and peaking at 1870. Why is there a peak
+        just then? Why would visitors be interested in Blisworth with an
+        absentee Rector for much of the 1820s and 1830s? The owner of the <a href="../../Blisworth&#32;Hotel/GF-hotel.htm"> Blisworth Gardens</a>
+        and his attempt to establish a Victorian-style pleasure resort after 1845 based on the
+        railway station is a plausible reason. As a majority of these visits
+        were in the summertime (<b>Figure 3</b>), perhaps people arranged baptism as part of a
+        family holiday. On the earlier topic of <b>SRB</b> ratios it is rather
+        curious here that the 244 infants born to “visitors” should display an <b>SRB</b>
+        = 1.05, which is <u> a normal figure</u> and markedly lower than the figure in
+        <b>
+        Figure 1</b> for the 1850-1900 50-year period, that being 1.177 for
+        Blisworth. Admittedly the numbers of visiting baptisms is small but is
+        it not very odd that such a sample from Victorian locations, some near
+        and some far from Blisworth, should show a normal <b>SRB</b> while, over
+        the same period, Blisworth's births should be ratio-ed anomalously? The assumptions made on the previous page in order to
+        “adjust” that latter figure are therefore to be regarded as unsavoury and startling.
+        Such tentative conclusion may be
+        wrong but <i>something</i> was going on.<o:p>
+        </span></font></p>
+        <p align="center" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><font size="4">Conclusions<o:p>
+        </font><span style="font-size:8.0pt">
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt">(1).</span></b><span style="font-size:11.0pt;color:black">&nbsp;</span><span style="font-size: 11.0pt"><span style="mso-spacerun: yes">
+        </span>Whilst life in Blisworth did not <u>equate</u> to city life, it
+        is important to not have an overly romantic view. There was, for a
+        while, a context for Blisworth that resembled a city environment and the
+        new elements of industrialisation, namely transportation and quarrying,
+        had created such environment exacerbated by a level of social laxity and, for
+        some of the population, poverty and
+        over-crowding.<o:p>
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt">(2).</span></b><span style="font-size:11.0pt;color:black"><span style="mso-spacerun: yes">&nbsp;
+        </span></span><span style="font-size: 11.0pt">The incidence of unrecorded wasting is not a proven fact for the
+        Victorian period in Blisworth but the evidence is disconcerting.<o:p>
+        &nbsp;Clearly some comparisons with carefully chosen city based parishes
+        may help to resolve the issue. That might suffice for the Victorian data
+        but there is still the extraordinary high boy/girl ratios recorded for
+        the period 1550 to 1650. If a genetic factor is implied for these early
+        data then, perhaps, a genetic factor should be introduced for the
+        Victorian era as well. The data of Table I has been sent to every
+        Department of Genetics in major UK universities but not one has replied
+        to the request for comment or any help with the data.</span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0"><font color="#000080"><span style="font-size: 11.0pt">----------------------------------------------------------------------------------------------------</span><span style="font-size:8.0pt;mso-bidi-font-size:11.0pt"><o:p>
+        &nbsp;
+        </span></font></p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0">&nbsp;</p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0"><font color="#000080" size="4">The
+        Appendices</font></p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0"><font color="#000080"><span style="font-size:8.0pt;mso-bidi-font-size:11.0pt">
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size:11.0pt"><font color="#000080">Various appendices
+        are attached. <b>Appendix 1</b> refers to a treatise on the practices in
+        a German parish. <b>Appendix 2</b> presents an extract of another book
+        that discusses infanticide. <b>Appendix 3</b> covers the Victorian
+        inclination to use laudanum-containing preparations to quieten children
+        – this, one can imagine, would be very tempting in order to
+        successfully use the single bedroom. The danger from it is that too much
+        laudanum (morphine) might be used and the child looses appetite and
+        energy and may eventually die addicted. A Pharmacy Act in 1868 demanded
+        that “Poison” be displayed and directed that pharmacies and not
+        grocers would sell in future. A survey of the local newspaper, the
+        Northampton Mercury, was made for the period 1860 to 1863 and the
+        presentation of adverts on various narcotic syrups or pills was easy to
+        find. For example, Dicey’s Bateman Pectoral Drops is a morphine
+        containing cough remedy, as is Lambert’s Asthmatic Balsam.
+        Interestingly, Dicey, as the owner of the newspaper, was subscribing to
+        a marketing deal with Bateman and a “quack-doctor” website, see
+        below, comments that the morphine content varies widely, deal to deal.<o:p></o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0" align="center"><font color="#000080"><img border="0" src="Figure&#32;4.jpg" width="900" height="266"></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size:11.0pt"><font color="#000080">&nbsp;<o:p>
+        </o:p>
+        Finally there is <b>Appendix 4</b> with an article that was recommended
+        as background reading by Colin Chapman who kindly gave me an
+        introduction into the sociology of this topic after meeting him at a
+        Tiffield history meeting. Colin Chapman lectures
+        on the History of Birth Control among other topics (eg. The Pattishall
+        POW camp). The reason for including the appendices is to show that, at
+        least in mostly city environments in England, there was much
+        over-crowding and dangers to infant life. Finally, <b>Appendix 5</b> summarises
+        the computer processes.</font></span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 6; margin-bottom: 0"><font color="#000080"><b>Appendix 1</b>: <b><span style="font-size: 11.0pt">Human sex-ratio manipulation: Historical data from a German parish<o:p>
+        </span><span style="font-size:11.0pt;
+color:blue">
+        </o:p>
+        </span></b></font></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 6; margin-bottom: 0" align="center"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-spacerun:
+yes">&nbsp;
+        </span>Eckart Voland<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">On the basis of demographic data of a parish in Schleswig-Holstein,
+        characterized by a<o:p>
+        primarily rural economy, the thesis is developed that during the
+        period investigated, i.e.<o:p>
+        from 1720 to 1869 A.D., the survival chances of newborns were
+        influenced by differential<o:p>
+        parental investment. The (first-born) daughters of land-owning
+        farmers were most affected<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">by this intervention, ie. as a result of less well being taken care
+        of. This resulted in<o:p>
+        sex-linked infant mortality and therefore a manipulation of the sex
+        ratio. The social<o:p>
+        undesirability of girls or the preference of, and hence the greater
+        investment in, boys by<o:p>
+        these farmers can be explained by two socio-economic factors that
+        appear to determine the<o:p>
+        reproductive value of the children:<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 6; margin-bottom: 0"><span style="font-size: 6.0pt"><font color="#000080">&nbsp;<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 2; margin-bottom: 0; padding-left: 240"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>(1) inheritance practices favouring male descendants,<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 2; margin-bottom: 0; padding-left: 240"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:1">&nbsp;&nbsp;</span><span style="mso-spacerun:
+yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>and (2) the proportion of marriage perspectives for the
+        sons<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 2; margin-bottom: 0; padding-left: 240"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>as opposed to the daughters being in favour of the boys,<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 2; margin-bottom: 0; padding-left: 240"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>in contrast to other social classes.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 4; margin-bottom: 0"><span style="font-size: 7.0pt"><font color="#000080">&nbsp;<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">The classes of the parish without land property revealed a different
+        pattern of<o:p>
+        demographic features. Here the irrelevance of inheritance
+        conventions and the relatively<o:p>
+        good chances of marriage for the daughters (especially the
+        relatively high chances of<o:p>
+        hypergamy, ie. &quot;marrying up&quot;, for the daughters of the
+        smallholders) in comparison with<o:p>
+        those of the sons led to partially reversing of social
+        undesirability and sex-linked<o:p>
+        reproductive value. Indeed, among the non-possessing classes, the
+        survival chances of<o:p>
+        the boys were the lowest, relative to their sisters, and those of
+        the girls were the highest.<o:p>
+        This means that, here too, the operation of cost-benefit-oriented
+        parental investment can<o:p>
+        be assumed to have been present in the society discussed.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0; margin-right: 0; margin-top: 6; margin-bottom: 0"><font color="#000080">&nbsp;<o:p>
+        </o:p>
+        </font>
+        </p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b>Appendix 2</b>:<span style="mso-spacerun: yes">&nbsp;
+        </span><b><span style="font-size: 11.0pt">Sex Differentials in
+        Survivorship and the Customary Treatment of Infants and Children<o:p>
+        </span><span style="font-size:11.0pt;color:blue">
+        </o:p>
+        </span></b></font></p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">Lauris
+        McKee<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">Infanticide
+        is a direct and violent means of removing children from a population.
+        For this reason, it has attracted public concern and occasioned careful
+        scientific inquiry.<o:p>
+        </o:p>
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">Parents
+        generally are deeply, emotionally invested in their children.
+        Institutionalised practices prejudicing child survival have the
+        advantage of interposing time and space between a treatment that
+        enhances the probability of early death, and a child's actual death.
+        Hence, the relationship between cause and effect can pass unperceived.
+        For example, infection of a ritually-inflicted wound appears several
+        days after the injury is incurred. In societies with no germ theory of
+        disease, pathogenesis would not be attributed to un-sterile conditions
+        but to other factors, such as imperfect performance of the ritual act or
+        the malfeasance of witches or supernatural. Scrimshaw (1982) notes that
+        seeking psychological distance through temporal and spatial distance
+        figures even among infanticidal parents who often abandon rather than
+        directly murder their children.<o:p>
+        &nbsp;</font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080">In this chapter, the major goal is to convince
+        the reader that infanticide exists, and to argue that two of its
+        potentially numerous functions arc (1) the limitation of population
+        growth; and (2) the management of demographic structure by control of
+        the sex ratio. The latter, it is suggested, results in selective female
+        infanticide to compensate for universally higher male mortality in
+        infancy and childhood, and may be implicated in the prevalence of
+        systems of male preference.<o:p>
+        </o:p>
+        </font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b>Appendix 3</b>:<span style="mso-spacerun: yes">&nbsp;
+        </span><b><span style="font-size: 11.0pt; mso-bidi-font-size: 15.0pt">Endangered
+        Lives: Public Health in Victorian Britain. Cambridge: Harvard UP, 1983.
+        pp. 34-35<o:p>
+        </span><span style="font-size:11.0pt;mso-bidi-font-size:15.0pt;color:blue">
+        </o:p>
+        </span></b></font></p>
+        <p class="MsoNormal" align="center" style="text-align: center; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 15.0pt"><font color="#000080">Wohl,
+        Anthony S.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="background-color: white; background-repeat: repeat; background-attachment: scroll; mso-layout-grid-align: none; text-autospace: none; margin-top: 6; margin-bottom: 0; background-position: 0%"><span style="font-size: 11.0pt; mso-bidi-font-size: 15.0pt"><font color="#000080">Medical officers were convinced that one of the major causes of
+        infant mortality was the widespread practice of giving children
+        narcotics, especially opium, to quieten them. At Id an ounce laudanum
+        was cheap enough — about the price of a pint of beer — and its sale
+        was totally unregulated until late in the century. The use of opium was
+        widespread both in town and country. In Manchester, according to one
+        account, five out of six working-class families used it habitually. One
+        Manchester druggist admitted selling a half-gallon of Godfrey's Cordial
+        (the most popular mixture, it contained opium, treacle, water, and
+        spices) and between five and six gallons of what was euphemistically
+        called &quot;quietness&quot; every week. In Nottingham one member of the
+        Town Council, a druggist, sold four hundred gallons of laudanum
+        annually. At mid-century there were at least ten proprietary brands,
+        with Godfrey's Cordial, Steedman<sup>’</sup>s Powder, and the grandly
+        named Atkinson's Royal Infants Preservative among the most popular. In
+        East Anglia opium in pills and penny sticks was widely sold and opium
+        taking was described as a way of life there. Throughout the Fens it was
+        used in 'poppy tea,' and doctors there reported how the infants were
+        wasted from it — 'shrank up into little old men', 'wizened like little
+        monkeys' is the way they were described.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="background-color: white; background-repeat: repeat; background-attachment: scroll; mso-layout-grid-align: none; text-autospace: none; margin-top: 6; margin-bottom: 0; background-position: 0%"><font color="#000080"><span style="font-size: 11.0pt; mso-bidi-font-size: 15.0pt">Opium killed far more infants through starvation than directly
+        through overdose. Dr. Greenhow, investigating for the Privy Council,
+        noted how children 'kept in a state of continued narcotism will be
+        thereby disinclined for food, and be but imperfectly nourished. Marasmus,
+        or inanitition, and death from severe malnutrition would result, but the
+        coroner was likely to record the death as 'debility from birth,' or
+        'lack of breast milk,' or simply 'starvation.'</span><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:
+12.0pt;color:blue;mso-ansi-language:EN-US"><o:p>
+        &nbsp;
+        </span></font></p>
+        <p class="MsoNormal" style="background-color: white; background-repeat: repeat; background-attachment: scroll; mso-layout-grid-align: none; text-autospace: none; margin-top: 6; margin-bottom: 0; background-position: 0%"><font color="#000080"><span lang="EN-US" style="font-size:11.0pt;mso-bidi-font-size:
+12.0pt;color:blue;mso-ansi-language:EN-US">
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><font color="#000080"><b><span style="font-size: 11.0pt; mso-bidi-font-size: 15.0pt">Appendix 4:<span style="mso-spacerun:
+yes">&nbsp; </span></span><u><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt">Background material</span></u><span style="font-size:
+11.0pt;mso-bidi-font-size:12.0pt;color:blue"><span style="mso-spacerun: yes">&nbsp;&nbsp;
+        </span>Infanticide: a case study by Richard Brown </span></b><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt">(from
+        his website blog)<b><o:p>
+        </o:p>
+        </b></span></font></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">In West London, on the evening of 1 September 1856, a grisly
+        discovery was made. The bodies of newborn twins were found wrapped in a
+        bloodstained petticoat and chemise in the front garden of a house at
+        Pentridge Villas, Notting Hill. Mr Guazzaroni, the surgeon who conducted
+        the post-mortem at the Kensington workhouse, found that the twins had
+        died because of intentional suffocation and exposure. A verdict of
+        wilful murder by persons unknown was returned at the coroner’s inquest
+        but the twin’s mother was never traced. Infanticide was disturbingly
+        common in Victorian Britain.[1] Lionel Rose estimates that of 113,000
+        deaths of children under the age of one in 1864, 1,730 were due to
+        ‘violence’ with only 192 of those being classified as homicides.
+        Contemporaries maintained that Britain was suffering from an epidemic of
+        child-killing blamed on ‘puerperal insanity’, a form of post-natal
+        mania that accounted for as much as 15% of female asylum admissions in
+        some years. [2]<b><o:p>
+        </o:p>
+        </b></font></span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">From the early 1840s, questions were being openly asked on the floor
+        of the House of Commons where Thomas Wakley, coroner, surgeon and MP
+        shocked his audience by claiming that infanticide[3], ‘was going on to
+        a frightful, to an enormous, a perfectly incredible extent.’[4]By the
+        1860s, the problem was believed to have reached crisis proportions and
+        figured as one of the great plagues of society, alongside prostitution,
+        drunkenness and gambling. According to some experts, it was impossible
+        to escape from the sight of dead infants’ corpses, especially in the
+        capital, for they were to be found everywhere from interiors to
+        exteriors, from bedrooms to train compartments. One observer commented
+        that bundles are left lying about in the streets... the metropolitan
+        canal boats are impeded, as they are tracked along by the number of
+        drowned infants with which they come in contact, and the land is
+        becoming defiled by the blood of her innocents. We are told by Dr
+        Lankester that there are 12,000 women in London to whom the crime of
+        child murder may be attributed. In other words, that one in every thirty
+        women (I presume between fifteen and forty-five) is a murderess.[5]<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">Even <i>The Times</i> was forced to concede at the end of a long
+        list of Herod-like statistics on the subject that ‘infancy in London
+        has to creep into life in the midst of foes’.[6] At every new
+        ‘epidemic’ of dead babies found abandoned on the streets of the
+        capital, there was a public outcry focussed on society’s responses. In
+        1870, in London, 276 infants were found dead in the streets and in 1895,
+        this figure reached 231. For the <i>Ladies’ Sanitary Association</i>,
+        civilisation itself was under threat: <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">...an annual slaughter of innocents takes place in this gifted land
+        of ours... we must grapple with this evil, and that speedily, if we
+        would not merit the reproach of admitting infanticide as an institution
+        into our social system.[7]<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">Many of the women involved were from the lower classes and many of
+        the babies were illegitimate. However, pleading this form of temporary
+        insanity when taken to court was frequently met with a sympathetic
+        response from judges, despite the obvious suspicion that some cases were
+        murders. The problem of infanticide was brought into strong focus by the
+        case of Mary Newell.[8] Born in south Oxfordshire, Mary had been a
+        servant since she was 16. Without work in the summer of 1857, aged 21,
+        she travelled to Reading where she met as old acquaintance, poulterer
+        William Francis who invited her for a drink at his house. Mary ended up
+        pregnant and Francis showed no further interest in her. Although she
+        soon found employment within two months she left and single, pregnant
+        and unemployed and having failed to persuade Francis to marry her, she
+        was admitted to Henley workhouse on 11 January 1858. In May she gave
+        birth to a son, Richard and remained at the workhouse until August when
+        she walked the eight miles to Reading to seek help from Francis who
+        refused. Unclear what to do and confused, Mary wandered round all night
+        and eventually she undressed her baby son, laid him by the bank of the
+        Thames and let him roll in. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">At Mary’s trial, there was outrage at Francis’ attitude, as it
+        was believed that had he shown any willingness to help, the baby would
+        not have died. Although he admitted his neglect at the trial, this did
+        little to moderate local feeling and after the verdict he was attacked
+        by a mob, beaten and left semi-naked, an event repeated when news of the
+        trial’s outcome reached his new home at Wallingford. Mary was
+        condemned to death but was in such a state that she was committed to the
+        local asylum. A petition was launched asking Queen Victoria to commute
+        her sentence and the local mayor, magistrates and nearly 800 others
+        signed it. A deputation of people from Reading visited the Home Office
+        to lobby and this intervention appears to have saved Mary’s life. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">Infanticide was an act of murder and as such, the guilty parties
+        could be exposed to the full force of the law. Yet, on this politically
+        delicate question, sentencing by the courts depended as much on the
+        facts as on the medical interpretation placed on them. Victorian
+        leniency towards infanticide was shaken in 1865 when a woman from
+        London, Esther Lack, killed her three children by slitting their
+        throats. After the court backed an insanity plea, one newspaper openly
+        questioned the willingness of courts to find in favour of such
+        defendants. Evidence from London shows that most women charged with
+        infanticide between 1837 and 1913 were in their early to mid-20s though
+        some were as young as 16 and that the younger the woman, the more likely
+        she was to be acquitted or guilty only of the lesser offence of
+        concealing a birth. However, it was not until the 1922 Infanticide Act
+        that the death penalty was abolished for women who murdered their
+        newborn babies if is could be shown that the woman in question had had
+        her balance of mind disturbed as a direct result of giving birth. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">The advent of the life insurance business brought a further motive
+        for murder but in particular infanticide. Arsenic poisoning was
+        difficult to identify since its symptoms were similar to those of
+        dysentary, gastritis and other causes of natural death and magistrates
+        were generally unwilling to squander public funds while the chances of
+        detection were so small.[9] Families could enrol their children in a
+        ‘burial club’ for a halfpenny a week and when the child died the
+        club would pay out as much as £5 towards funeral expenses. Since a
+        cheap funeral cost around £1, this left a valuable surplus for feeding
+        the remaining children and some families enrolled each child in several
+        clubs to increase the payout. There was a saying in Manchester, though
+        it existed across the country that a burial-club baby was unlikely to
+        survive for long. The burial-club scandal became so widespread that
+        legislation was passed in 1850 prohibiting insuring children under 10
+        for more than £3. However, the lure of life insurance remained a potent
+        cause of infanticide. Mary Ann Cotton, a former school teacher from
+        County Durham murdered most of her 15 children and step-children, as
+        well as her mother, three husbands and her lodger, before she was hanged
+        in 1873. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">The harshest decisions were certainly those meted out to the
+        professional baby farmer found guilty of infanticide. One of the first
+        and most sensational trials was that of Margaret Waters, the so-called
+        ‘Brixton Baby Farmer’ in 1870, who was found guilty of conspiracy to
+        obtain money by fraud and the murder of a baby.[10] She was executed
+        amid extensive popular agitation and press coverage. In a sense the
+        pattern had been set and when, in 1879, Annie Took was similarly found
+        guilty of smothering and dismembering an illegitimate physically
+        handicapped child she had been paid £12 to look after, she too was
+        executed. Other high-profile baby farmers such as the Edinburgh
+        murderess Jessie King in 1887[11] and Amelia Dyer[12] suffered a similar
+        fate. Yet not all of these criminals were sentenced to death and other
+        cases that received front-page coverage such as those of Catherine
+        Barnes and Charlotte Winsor resulted in verdicts of life imprisonment. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">There was a growing body of evidence by the 1870s that infanticide
+        was a crime committed primarily by women and, more often than not, by
+        the mothers or the surrogate mothers of the infants themselves.
+        Undoubtedly, the more ‘acceptable’ of these two explanations was the
+        latter, that these crimes were the work of depraved, unscrupulous women
+        who had lost all sense of their maternal instincts and indulged in a
+        commercial trade with life itself inside a profession known popularly as
+        ‘baby farming’.[13] The term first appeared in <i>The Times</i> in
+        the late 1860s, and, according to one medical practitioner of the
+        period, was coined ‘to indicate the occupation of those who receive
+        infants to nurse or rear by hand for a payment in money, either made
+        periodically (as weekly or monthly) or in one sum’.[14] It was
+        regarded with a great deal of suspicion in many quarters, as an
+        “occupation which shuns the light”[15] and not simply a primitive
+        form of child-care. However, its popular appeal and social function were
+        immense at a time when illegitimacy was stigmatised and single mothers
+        excluded from the most elementary means of supporting their child. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">By the latter part of the nineteenth century, the mechanics of the
+        system had become well established. The ‘baby farmer’ was usually a
+        woman of a mature age and poor working-class background who would offer
+        either to look after the ‘unwanted’ child or ensure that it was
+        ‘passed on’ to suitable adoptive parents. The fee for this
+        transaction varied according to the specifics of the contract but was
+        usually situated between £7 and £30.[16] In the majority of cases
+        there was also a tacit understanding between the two parties that, in
+        the harsh conditions of life in working-class areas of the nation’s
+        cities, the child’s chances of survival would be extremely slim. What
+        particularly outraged public feeling was that this trade had a visible,
+        almost respectable, side to it for it was practised openly through
+        advertising, in national, regional and local newspapers. Not
+        surprisingly under such circumstances, the financial considerations
+        involved in this extensive traffic in infant life gradually became the
+        focus of deep suspicion. For the <i>British Medical Journal </i>of 1868,
+        these ‘baby farmers’ would not have the slightest difficulty in
+        disposing of any number of children, so that they may give no further
+        trouble, and never be heard of, at £10 a head.[17]<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">Baby farms were denounced as nothing more than ‘centres of
+        infanticide’, a convenient way for women to solve the problem of
+        unwanted and illegitimate births. It was, for instance, widely believed
+        that these babies were often left to wilt away and die, sometimes helped
+        along with a little soother known as ‘Kindness’. These rumours found
+        credence in the fact that at this time it was common practice, not only
+        among those whose looked after children, but also among mothers
+        themselves, to use a certain ‘Godfrey’s Cordial’ to quieten the
+        babies, and that this, if dosed incorrectly, could lead to ‘the sleep
+        of death’.[18]<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">Little however was known about the role of the mothers in this
+        trade. <i>The Times </i>had no doubts that the women who sent their
+        children to baby farmers were <i>‘complicitous and selfish’</i> and
+        not naive and impoverished victims in their own right.[19] Yet a survey
+        of those implicated in the more spectacular trials of the period
+        suggests that most were guilty only of the crime of having a child
+        outside of wedlock. Crime reports invariably refer to the biological
+        mothers’ occupation as that of bar-maid, prostitute, factory or mill
+        worker, domestic servant. Much more rarely are there references to
+        ‘outraged’ middle-class girls and unfaithful upper-class women
+        having recourse to the infamous baby farmers. In the Margaret Waters
+        case, for instance, the court heard of 17-year-old Jeanette Cowen, who
+        had been raped by the husband of a friend and, on the birth of her son,
+        her father arranged ‘adoption’ procedures with Waters without the
+        mother’s consent.&nbsp; Evelina Marmon, a barmaid from Bristol,
+        confided her 10-month-old child to the safe keeping of Amelia Dyer
+        because she was temporarily unable to look after it. She was unaware
+        that the baby had been strangled and disposed of until the trial, as
+        Dyer sent her regular reports about its progress. The illegitimate child
+        of Elizabeth Campbell, who died in childbirth, was ‘adopted’ for a
+        generous fee by Jessie King to avoid a family scandal but nobody
+        apparently suspected that any harm would befall the child. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">The problem of ‘baby farming’ proved intractable, despite the
+        sustained pressure of such groups as the <i>Infant Life Protection
+        Society</i> that called for the registration and control of all people
+        in charge of babies on a professional basis.[20] Not only was this
+        activity an integral part of the social regulation of the nation’s
+        sexuality, it also fulfilled a valuable economic role by allowing
+        working-class women to occupy paid employment. Government interference
+        in such a private sphere was therefore problematic in the extreme. The
+        breakthrough only came through a private member’s initiative which
+        became the <i>Infant Life Protection Act</i> in 1872. This reform made
+        registration obligatory with the local authority for any person taking
+        in two or more infants under one year of age for a period greater than
+        24 hours. Furthermore, deaths of infants in such care had to be
+        communicated to the Coroner within 24 hours. It was a timid start since
+        the scope of people exempted from the Act was significant; relatives,
+        day-nurses, hospitals and even foster women were all excluded and no
+        ‘authentification’ of contracts between parent and baby farmer was
+        required. Moreover since the registration of all births, live and dead
+        did not become compulsory until 1874, unless the authorities actually
+        knew that a baby had been born, it was possible for it to die, be killed
+        or be disposed of without anyone even noticing its existence. Only after
+        other sensational ‘epidemics’ of infanticide in the ensuing years
+        did a further <i>Infant Life Protection Act</i> force its way through
+        Parliament in 1897. This Act finally empowered local authorities to
+        control the registration of “nurses” responsible for more than one
+        infant under the age of five for a period longer than 48 hours.[21]<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">NOTES</font></span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[1] Rose, Lionel,<i> Massacre of the Innocents: Infanticide in
+        Britain 1800-1939</i>, (Routledge), 1986 and more generally Jackson,
+        Mark, (ed.), <i>Infanticide: Historical Perspectives on Child Murder and
+        Concealment</i>, (Ashgate), 2002, Thorn, Jennifer, (ed.), <i>Writing
+        British infanticide: child-murder, gender, and print, 1722-1859</i>,
+        (University of Delaware Press), 2003 and McDonagh, Josephine, <i>Child
+        Murder &amp; British Culture, 1720-1900</i>, (Cambridge University
+        Press), 2003, pp. 97-183. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[2] Puerperal psychosis is now a well-recognised event, affecting
+        perhaps one in every 500 births in the UK. It normally happens in the
+        first month of the new child’s life and takes the form of a severe
+        episode of mania similar to that suffered by manic depressives. Patients
+        may become confused and delusional, and in the most extreme cases try to
+        harm themselves or their new child. See, Marland, Hilary, ‘Getting
+        away with murder? Puerperal insanity, infanticide and the defence
+        plea’, in ibid, Jackson, Mark (ed.), <i>Infanticide: historical
+        perspectives on child murder and concealment, 1550-2000</i>, pp. 168-192
+        and ‘Disappointment and desolation: women, doctors and interpretations
+        of puerperal insanity in the nineteenth century’, <i>History of
+        Psychiatry</i>, Vol. 14, (2003), pp. 303-320. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[3] William Ryan described infanticide as ‘the murder of a
+        new-born child’ although there is no specific time applied to the term
+        ‘new-born’; it is not restricted to days after the birth. Ryan,
+        William Burke, <i>Infanticide: Its Law, Prevalence, Prevention and
+        History</i>, (J. Churchill, New Burlington Street), p. 3 <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[4]<i>Hansard’s Parliamentary Debates</i>, 3<sup>rd</sup> Series,
+        76, 1844, col. 430-431. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[5] Ibid, Ryan, William Burke, <i>Infanticide: Its Law, Prevalence,
+        Prevention and History</i>, pp. 45-46. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[6]<i>The Times</i>, 29 April 1862. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[7]
+        Baines, Mrs M.A., <i>Excessive Infant Mortality: How can it be
+        stayed?</i>, (J. Churchill and. Sons), 1865. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[8] National Archives: PCOM 4/36/37 and the review of Ryan, William
+        Burke, ‘Infanticide: its Law, Prevalence, Prevention and History’, <i>The
+        British and Foreign Medico-Chirurgical Review or Quarterly Journal of
+        Practical Medicine and Surgery</i>, Vol. xxxi, (1863), pp. 1-27. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[9] See, Whorton, James C., <i>The Arsenic Century: How Victorian
+        Britain was Poisoned at Home, Work and Play</i>, (Oxford University
+        Press), 2010, pp. 27-33. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[10] On Margaret Waters’ case, see HO 12 193/92230 <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[11] One of the children in her care apparently died from an
+        overdose of whisky. King was executed on 11 March 1889 in Calton Prison,
+        and had the unenviable distinction of being the last but one woman to be
+        hanged for murder in Scotland. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[12] Dyer’s reputation as a mass-murderess stems from her modus
+        operandi for after strangling her victim with tape, she placed it in a
+        carpet bag (nicknamed the ‘travelling coffin’) and threw it into the
+        Thames. She stated in her confession ‘<i>You’ll know all mine by the
+        tape around their necks’</i>. Fifty-seven-year-old Dyer was
+        responsible for at least 17 deaths before her arrest in 1896. For a
+        detailed police report, her trial and sentencing, forensic detail,
+        incriminating evidence as well as her written confession, see <i>Thames
+        Valley Police Archives</i>. See also, Vale, Alison, <i>Amelia Dyer,
+        angel maker: the woman who murdered babies for money</i>, (Andre
+        Deutsch), 2007. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[13] See, Behlmer, George K., <i>Child abuse and moral reform in
+        England 1870-1908</i>, (Oxford University Press), 1982, pp. 25-42,
+        150-156 and 211-221. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[14]Curgenven,
+        J.B., <i>On Baby-farming and the Registration of
+        Nurses</i>, <i>Read at a meeting of the Health Department of the
+        National Association for the Promotion of Social Science, March 15,
+        1869,</i> (National Association for the Promotion of Social Science),
+        1869, p. 3. See also, Greenwood, James, <i>The Seven Curses of London</i>,
+        (S. Rivers), 1869, pp. 29-57. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[15]<i>North British Daily Mail</i>, 2March 1871. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[16] Ibid, Rose, Lionel, <i>Massacre of the Innocents. Infanticide
+        in Great Britain 1800-1939</i>, p. 94. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[17]Cit,
+        Altick, Richard D., <i>Victorian Studies in Scarlet</i>,
+        (W.W. Norton &amp; Co.), 1970, p. 285 <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[18] See, Findlay, Rosie, ‘‘More Deadly Than The Male’...?
+        Mothers and Infanticide In Nineteenth Century Britain’, <i>Cycnos</i>,&nbsp;
+        Vol. 23, (2), (2006), URL: http://revel.unice.fr/cycnos/document.html?id=763
+        <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[19]<i>The Times,</i> 4 July and 24 September 1870. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[20]<i>The Infant Life Protection Society, </i>created in 1870 and
+        the<i> National Society for the Prevention of Cruelty to Children</i>
+        established in 1889 campaigned relentlessly for the introduction of
+        better ‘policing’ of working-class families: Allen, Anne and Morton,
+        Arthur, <i>This is your child: the story of the National Society for the
+        Prevention of Cruelty to Children</i>, (Routledge &amp; K. Paul), 1961,
+        pp. 15-33. They recommended more foundling hospitals to be set up as
+        well as public nurseries for the children of the poor, as they believed
+        that working-class mothers’ lack of education and standard of living
+        both conspired against infant life. See, Arnot, Margaret L., ‘Infant
+        death, child care and the state: the baby farming scandal and the first
+        infant life protection legislation of 1872’, <i>Continuity and Change</i>,
+        Vol. 9, (2), 1994, p. 290 and ‘An English Crèche’,&nbsp; <i>The
+        Times</i>, 8 April 1868. <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-left: 0cm; margin-right: 0cm; margin-top: 6; margin-bottom: 0; padding-left: 50; padding-right: 50"><span style="font-size: 11.0pt; mso-bidi-font-size: 12.0pt"><font color="#000080">[21] The Prevention of Cruelty to Children Act was passed in 1889 to
+        protect children under the age of fourteen from ill-treatment. Although
+        in 1881 the Midwives Institute was founded, it took almost another
+        twenty years before the first Midwives Act was passed in 1902; the
+        Central Midwives Board were to govern training and practice of midwives
+        in England and Wales, and it was illegal to practise without
+        qualification (Scotland 1915 and Northern Ireland 1922).<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><span style="font-size: 11.0pt"><font color="#000080">&nbsp;<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><b><span style="font-size: 11.0pt"><font color="#000080">Appendix
+        5: The Excel and Perl process.<o:p>
+        </o:p>
+        </font>
+        </span></b></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span><b>MSExcel</b><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        Set in date order and f</span>ilter for baptisms only<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span><b>MSExcel</b><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Then, alphabetically sort the surnames<o:p>
+        (sub-entries for each surname remain in a date order)</o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span><b>MSExcel</b><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Save as a new file in &quot;comma separated variables&quot;
+        format (ie. plain text)<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span><b>Perl </b><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Run
+        this routine for each new text line<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span><b>Perl</b> cont..<span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Split the fields at the commas.<span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>The rest of the routine works on the “<b>Information field</b>”<o:p>
+        <span style="mso-tab-count:8">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun: yes">&nbsp;
+        </span>except where noted.<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Detect and exclude &quot;visitor parents&quot; for separate
+        listing <o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0; padding-left: 0; padding-right: 0"><font color="#000080"><span style="font-size: 11.0pt"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>“<b>Surname field</b>” - Take surname and either continue
+        totalling, if the surname is the same as<o:p> as the&nbsp;<br>
+        </span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="font-size: 11.0pt">previous one, or start a new surname summation<o:p>
+        </span>
+        <span style="font-size:11.0pt;
+color:black">
+        </o:p>
+        </span></font></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Detect uninformative entry, exclude and set for separate listing<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Detect &quot;s&quot; for boy, &quot;d&quot; for daughter and then
+        increment count against surname<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>Detect &quot;bastard&quot; &amp; &quot;base born&quot; and copy
+        for listing<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span><b>Perl</b><span style="mso-spacerun: yes">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </span>On “End of file” close lists of visitors, uninformative,
+        bastards and surnames<o:p>
+        </o:p>
+        </font>
+        </span></p>
+        <p class="MsoNormal" style="margin-top: 6; margin-bottom: 0"><span style="font-size: 11.0pt"><font color="#000080">&nbsp;<o:p>
+        </o:p>
+        </font>
+        </span></p>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p align="center" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+<p align="center" style="margin-top: 6; margin-bottom: 0">&nbsp;</p>
+
+</body>
+
+</html>
